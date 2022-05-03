@@ -1,0 +1,116 @@
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    z-index: 1;
+    position: fixed;
+    padding-bottom: 350px;
+    
+}
+
+.section p {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    color: #fff;
+    align-items: center;
+    flex-direction: row;
+    justify-self: center;
+    position: fixed;
+}
+
+.section button {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgba(211,211,211, .4);
+    color: white;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: solid 2px white;
+    margin-top: 250px;
+}
+
+.section button {
+    transition-duration: 0.4s;
+}
+
+.section button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+
+.button1 button {
+    z-index: 1;
+    color: white;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: solid 2px white;
+    transition-duration: 0.4s;
+}
+
+.button1 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer1 p {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.color {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    padding-top: 350px;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,5 @@
+const checkbox = document.getElementById("checkbox");
+
+chk.addEventListener("change", () => {
+	document.body.classList.toggle("light");
+});

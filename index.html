@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="color-icons/start-up.png">
+</head>
+<body>
+    <div class="body">
+   <div class="navbar">
+        <div class="avatar">
+            <img src="download20220404154834.png" alt="avatar" width="150" height="150">
+        </div>
+        <div class="name-title">
+            <h1>agustín da silva.</h1>
+        </div>
+        <div class="name-caption">
+            <p>your (NOT) average web developer.</p>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/agustindasilvaR" target="_blank">
+                <img src="color-icons/twitter.png">
+            </a>
+            <a href="https://github.com/agustindasilvaR" target="_blank">
+                <img src="color-icons/github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/agust%C3%ADn-da-silva-91933a230/" target="_blank">
+                <img src="color-icons/linkedin.png">
+            </a>
+            <a href="mailto:agustindaasilvarodriguez@gmail.com" target="_blank">
+                <img src="color-icons/gmail.png" alt="gmail" width="50" height="50">
+            </a>
+        </div>
+        <div class="interruptor">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <img src="color-icons/sun.png" alt="dark" class="moon-mode">
+                <img src="color-icons/crescent-moon.png" alt="light" class="sun-mode">
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
+    <script>
+        const checkbox = document.getElementById("checkbox");
+
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("light");
+            });
+    </script>
+    <div class="background">
+    <div class="who-am-i">
+        <h2>Who is Agustín?</h2>
+        <p>Agustín is a 20 year old who fell deeply in love with front-end development and IT in general. He has a gnawing hunger for knowledge, specially when it comes to coding.
+            Outside IT, Agustín enjoys art, fashion, gaming, and pixel art.
+        </p>
+    </div>
+    <div class="languages">
+        <h2>Agustín is able to communicate in...</h2>
+        <img src="languages/spain.png" alt="spain" width="50" height="50">
+        <img src="languages/portugal.png" alt="portugal" width="50" height="50">
+        <img src="languages/uk.png" alt="uk" width="50" height="50">
+        <img src="languages/germany.png" alt="germany" width="50" height="50">
+    </div>
+    <div class="projects">
+    <h2>Portfolio</h2>
+    <ul>
+        <a href="nurture (html _ css)/index.html">
+            <li>Porter Robinson's Nurture tour web page project (WIP)</li>
+        </a>
+    </ul>
+
+    </div>
+    <div class="tools">
+        <h2>Tools</h2>
+        <img src="color-icons/html.png" alt="html5" title="HTML5" width="50" height="50">
+        <img src="color-icons/css.png" alt="css" width="50" height="50">
+        <img src="color-icons/sql-server.png" alt="sql" width="50" height="50">
+        <img src="color-icons/java.png" alt="java" width="50" height="50">
+        <img src="color-icons/git.png" alt="git" width="50" height="50">
+        <img src="color-icons/github.png" alt="github" width="50" height="50">
+    </div>
+    <div class="footer">
+        <p>© AGUSTÍN DA SILVA, 2022 </p>
+    </div>
+</div>
+</div>
+</body>
+</html>
